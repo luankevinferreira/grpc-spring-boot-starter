@@ -1,0 +1,265 @@
+repo_name: luankevinferreira/grpc-spring-boot-starter
+report_id: d364bc10f2f4eebb91a4068431f33f13
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-24T00:05:59+00:00'
+requested_by: ST-DDT
+provider: github
+branch: master
+detected_tools_count: 21
+tools:
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/luankevinferreira/grpc-spring-boot-starter
+  detection_source: Repo Metadata
+- name: Spring Framework
+  description: An application framework and inversion of control container for the
+    Java platform
+  website_url: https://spring.io/projects/spring-framework
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/2006/spring-framework-project-logo.png
+  detection_source_url: https://github.com/luankevinferreira/grpc-spring-boot-starter/blob/master/examples/cloud-eureka-server/build.gradle
+  detection_source: examples/cloud-eureka-server/build.gradle
+  last_updated_by: Matt Kerr
+  last_updated_on: 2020-03-22 15:45:44.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/luankevinferreira/grpc-spring-boot-starter
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/luankevinferreira/grpc-spring-boot-starter/blob/master/.github/workflows/build-master.yml
+  detection_source: ".github/workflows/build-master.yml"
+  last_updated_by: Michael Zhang
+  last_updated_on: 2020-06-06 08:02:31.000000000 Z
+- name: Gradle
+  description: A powerful build system for the JVM
+  website_url: https://www.gradle.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/975/gradlephant-social-black-bg.png
+  detection_source_url: https://github.com/luankevinferreira/grpc-spring-boot-starter/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Alexey Zhokhov
+  last_updated_on: 2021-04-16 13:50:21.000000000 Z
+- name: Logback
+  description: A logging framework for Java applications
+  website_url: https://logback.qos.ch/
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/2923/05518ecaa42841e834421e9d6987b04f_400x400.png
+  detection_source_url: https://github.com/luankevinferreira/grpc-spring-boot-starter/blob/master/grpc-server-spring-boot-autoconfigure/src/test/resources/logback-test.xml
+  detection_source: grpc-server-spring-boot-autoconfigure/src/test/resources/logback-test.xml
+  last_updated_by: ST-DDT
+  last_updated_on: 2021-04-24 10:11:32.000000000 Z
+- name: Apache Camel
+  description: A versatile open source integration framework
+  website_url: https://camel.apache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Platform as a Service
+  image_url: https://img.stackshare.io/service/3276/xWt1RFo6_400x400.jpg
+  detection_source_url: https://github.com/luankevinferreira/grpc-spring-boot-starter/blob/master/examples/cloud-eureka-server/src/main/resources/application.yml
+  detection_source: examples/cloud-eureka-server/src/main/resources/application.yml
+  last_updated_by: Michael Zhang
+  last_updated_on: 2017-02-03 04:53:01.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/luankevinferreira/grpc-spring-boot-starter
+  detection_source: Repo Metadata
+- name: io.grpc:grpc-core
+  description: 'GRPC: Core'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/luankevinferreira/grpc-spring-boot-starter/blob/master/grpc-common-spring-boot/build.gradle
+  detection_source: grpc-common-spring-boot/build.gradle
+  last_updated_by: ST-DDT
+  last_updated_on: 2020-06-02 16:34:15.000000000 Z
+- name: io.grpc:grpc-netty
+  description: 'GRPC: Netty'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/luankevinferreira/grpc-spring-boot-starter/blob/master/tests/build.gradle
+  detection_source: tests/build.gradle
+  last_updated_by: Matt Kerr
+  last_updated_on: 2020-03-22 15:45:44.000000000 Z
+- name: io.grpc:grpc-protobuf
+  description: 'GRPC: Protobuf'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/luankevinferreira/grpc-spring-boot-starter/blob/master/examples/grpc-lib/build.gradle
+  detection_source: examples/grpc-lib/build.gradle
+  last_updated_by: Matt Kerr
+  last_updated_on: 2020-03-22 15:45:44.000000000 Z
+- name: io.grpc:grpc-stub
+  description: 'GRPC: Stub'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/luankevinferreira/grpc-spring-boot-starter/blob/master/examples/grpc-lib/build.gradle
+  detection_source: examples/grpc-lib/build.gradle
+  last_updated_by: Matt Kerr
+  last_updated_on: 2020-03-22 15:45:44.000000000 Z
+- name: io.grpc:grpc-testing
+  description: 'GRPC: Testing'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/luankevinferreira/grpc-spring-boot-starter/blob/master/grpc-client-spring-boot-autoconfigure/build.gradle
+  detection_source: grpc-client-spring-boot-autoconfigure/build.gradle
+  last_updated_by: ST-DDT
+  last_updated_on: 2020-06-02 16:34:15.000000000 Z
+- name: org.junit.jupiter:junit-jupiter-api
+  description: Module "junit-jupiter-api" of JUnit 5
+  license: EPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/luankevinferreira/grpc-spring-boot-starter/blob/master/grpc-client-spring-boot-autoconfigure/build.gradle
+  detection_source: grpc-client-spring-boot-autoconfigure/build.gradle
+  last_updated_by: Matt Kerr
+  last_updated_on: 2020-03-22 15:45:44.000000000 Z
+- name: org.junit.jupiter:junit-jupiter-engine
+  description: Module "junit-jupiter-engine" of JUnit 5
+  license: EPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/luankevinferreira/grpc-spring-boot-starter/blob/master/grpc-client-spring-boot-autoconfigure/build.gradle
+  detection_source: grpc-client-spring-boot-autoconfigure/build.gradle
+  last_updated_by: Matt Kerr
+  last_updated_on: 2020-03-22 15:45:44.000000000 Z
+- name: org.springframework.boot:spring-boot-starter
+  description: Core starter
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/luankevinferreira/grpc-spring-boot-starter/blob/master/examples/local-grpc-server/build.gradle
+  detection_source: examples/local-grpc-server/build.gradle
+  last_updated_by: Matt Kerr
+  last_updated_on: 2020-03-22 15:45:44.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-actuator
+  description: Starter for using Spring Boot's Actuator which provides production
+    ready features to help you monitor and manage your application
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/luankevinferreira/grpc-spring-boot-starter/blob/master/examples/cloud-eureka-server/build.gradle
+  detection_source: examples/cloud-eureka-server/build.gradle
+  last_updated_by: Matt Kerr
+  last_updated_on: 2020-03-22 15:45:44.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-test
+  description: Starter for testing Spring Boot applications with libraries including
+    JUnit
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/luankevinferreira/grpc-spring-boot-starter/blob/master/examples/cloud-eureka-server/build.gradle
+  detection_source: examples/cloud-eureka-server/build.gradle
+  last_updated_by: Matt Kerr
+  last_updated_on: 2020-03-22 15:45:44.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-web
+  description: Starter for building web, including RESTful, applications using Spring
+    MVC
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/luankevinferreira/grpc-spring-boot-starter/blob/master/examples/cloud-grpc-client/build.gradle
+  detection_source: examples/cloud-grpc-client/build.gradle
+  last_updated_by: ST-DDT
+  last_updated_on: 2021-04-27 21:52:34.000000000 Z
+- name: org.springframework.security:spring-security-config
+  description: Spring-security-config
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/luankevinferreira/grpc-spring-boot-starter/blob/master/examples/security-grpc-server/build.gradle
+  detection_source: examples/security-grpc-server/build.gradle
+  last_updated_by: Matt Kerr
+  last_updated_on: 2020-03-22 15:45:44.000000000 Z
+- name: org.springframework.security:spring-security-core
+  description: Spring-security-core
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/luankevinferreira/grpc-spring-boot-starter/blob/master/examples/security-grpc-client/build.gradle
+  detection_source: examples/security-grpc-client/build.gradle
+  last_updated_by: Matt Kerr
+  last_updated_on: 2020-03-22 15:45:44.000000000 Z
